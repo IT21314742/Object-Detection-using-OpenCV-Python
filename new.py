@@ -1,2 +1,2 @@
 import cv2
-import
+import cvlib as cv
