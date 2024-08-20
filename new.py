@@ -7,4 +7,4 @@ from playsound import playsound
 video = cv2.VideoCapture(1)
 
 while True:
-    ret, 
+    ret, tk.Frame(root)
