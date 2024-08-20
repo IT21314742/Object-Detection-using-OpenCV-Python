@@ -8,3 +8,4 @@ video = cv2.VideoCapture(1)
 
 while True:
     ret, Frame = video.read()
+    bbox, label, conf = 
