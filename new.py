@@ -10,3 +10,8 @@ while True:
     ret, Frame = video.read()
     bbox, label, conf = cv.detect_common_objects(Frame)
     output_image = draw_bbox(Frame, bbox, label, conf)
+
+    cv2.imshow("Object Detection", output_image)
+
+    if cv2.waitKey(1) & 0xFF == ord("q"):
+        break
