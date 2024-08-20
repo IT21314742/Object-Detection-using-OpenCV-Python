@@ -4,7 +4,7 @@ from cvlib.object_detection import draw_bbox
 from gtts import gTTS
 from playsound import playsound
 
-video = cv2.VideoCapture(1)
+video = cv2.VideoCapture(0)
 
 while True:
     ret, Frame = video.read()
